@@ -68,3 +68,39 @@ p {
 a {
   color: white;
 }
+@media only screen and (max-width: 700px) {
+  form {
+    margin-right: 20px;
+  }
+  .valuse-container input {
+    width: 100%;
+  }
+  button {
+    width: 69%;
+    margin-left: 16px;
+  }
+  .git-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20%;
+    margin-right: 20px;
+  }
+  .user-data {
+    width: 100%;
+  }
+  .user-data p {
+    width: 100%;
+    margin-left: 42px;
+    font-size: 17px;
+  }
+  .avatar-container {
+    margin-right: 20px;
+  }
+  .avatar-container img {
+    width: 321px;
+    margin-left: 27px;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 800px) {
+}

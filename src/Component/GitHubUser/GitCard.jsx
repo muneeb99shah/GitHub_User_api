@@ -15,8 +15,11 @@ export default function GitCard(props) {
           <h2>{name}</h2>
           <h2>repository: {public_repos}</h2>
           <p>{bio}</p>
-          <a href={html_url} target="_blank" rel="noreferrer">
+          {/* <a href={html_url} target="_blank" rel="noreferrer">
             https://api.github.com/users/${username}
+          </a> */}
+          <a href={html_url} target="_blank" rel="noreferrer">
+            {username}
           </a>
         </div>
       </div>

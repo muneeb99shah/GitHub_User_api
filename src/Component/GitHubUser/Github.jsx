@@ -58,7 +58,9 @@ export default function Github() {
             bio={storeRecord.bio}
             url={storeRecord.html_url}
             public_repos={storeRecord.public_repos}
-            html_url={storeRecord.html_url}
+            // html_url={storeRecord.html_url}
+            // html_url={storeRecord.html_url}
+            username={storeRecord.html_url}
           />
         )}
       </div>
